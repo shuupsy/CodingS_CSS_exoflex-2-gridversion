@@ -1,0 +1,27 @@
+.item {
+    background-color: orangered;
+    height: 80px;
+    display: flex;
+    margin:5px;
+}
+
+.container div  {
+    justify-content: center;
+    align-items: center;
+    display:grid;
+}
+
+.ligne1 {
+    grid-template-columns: 1fr;
+}
+.ligne2 {
+    grid-template-columns: 1fr 1fr;
+}
+.ligne3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+.ligne4 {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+
